@@ -1,0 +1,48 @@
+*,*::after,*:before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --p-clr : #deb887;
+  --s-clr : #fffaf4;
+}
+body{
+  width: 100%;
+  font-family: sans-serif;
+  background-color: var(--s-clr);
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0.5rem;
+  color: darkgoldenrod;
+}
+.lead{
+  color:gray;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+a{
+  text-decoration: none;
+  color : inherit;
+  font-weight: inherit;
+}
+section{
+  padding: 1rem
+}
+.btn {
+  padding: 1rem;
+  border-radius:10px;
+  border: none;
+}
+.btn-primary{
+  background-color: var(--p-clr);
+}
+.btn-secondary{
+  background: none !important;
+  border : 1px var(--p-clr) solid
+}
+.btn-group{
+  display: flex;
+  gap : 0.5rem
+}
